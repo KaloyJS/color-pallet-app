@@ -19,9 +19,9 @@ class PaletteList extends Component {
 						<h1>React colors</h1>
 						<div className={classes.navRight}>
 							<Link to='/palette/new'>Create Palette</Link>
-							<a href='javascript:void(0)' onClick={loadPalettes}>
+							{/* <a href='javascript:void(0)' onClick={loadPalettes}> 
 								Load Sample Palettes
-							</a>
+							</a> */}
 						</div>
 					</nav>
 					<div className={classes.palettes}>
