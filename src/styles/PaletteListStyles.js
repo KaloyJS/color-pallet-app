@@ -2,6 +2,15 @@ import sizes from './mediaQueries';
 import bg from './bg.svg';
 const grey = 'rgba(255, 255, 255, 0.1)';
 const styles = {
+	'@global': {
+		'.fade-exit': {
+			opacity: 1,
+		},
+		'.fade-exit-active': {
+			opacity: 0,
+			transition: 'opacity 500ms ease-out',
+		},
+	},
 	root: {
 		/* background by SVGBackgrounds.com */
 		backgroundColor: '#000000',
